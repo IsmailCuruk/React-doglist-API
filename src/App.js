@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import DogsList from './components/DogsList'
 import request from 'superagent'
+import DogsListContainer from './components/DogsListContainer';
 
 class App extends React.Component {
 
@@ -14,7 +15,7 @@ class App extends React.Component {
         </h1>
         </header>
         <main>
-          <DogsList />
+          <DogsListContainer />
         </main>
       </div>
     );
